@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <include file="config/liquibase/changelog/20191123152540_add_entity_account_record.xml"
+             relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191219144800_add_entity_address_record.xml"
+             relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191227164100_add_entity_transaction_record.xml" relativeToChangelogFile="false"/>
+
+</databaseChangeLog>

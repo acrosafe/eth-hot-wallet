@@ -1,0 +1,17 @@
+# ===================================================================
+# Application specific properties
+# ===================================================================
+server:
+  ssl:
+    key-store: file:${TLS_KEYSTORE_FILE}
+    key-store-password: "${TLS_KEYSTORE_PASSWORD}"
+    key-store-type: JKS
+    client-auth: need
+application:
+  passphrase: ${PASSPHRASE}
+  service-id: ${SERVICEID}
+  service-url: ${SERVICE_URL}
+  testnet: true
+  service-timeout: 600
+  entropy-bits: 256
+  security-strength: 256
