@@ -36,23 +36,6 @@ Note: If you have problem about eth-core.jar in the pom, please add it to your m
   }
   ```
 
-  
- - **Get wallet:  GET**  https://hostname:7100/api/v1/eth/wallet/{walletId}
-
-    output example:
-    ```javascript
-        {
-          "id": "bef1a9a4e39e4cb8b36be1ff9681529d",
-          "enabled": true,
-          "createdDate": "2020-06-01T21:03:38.290Z",
-          "label": "test wallet 001",
-          "balance": {
-            "estimated": "0.00754024",
-            "available": "0.00754024"
-          }
-        }
-    ```
-
 - **Generate receiving address:  POST**   https://hostname:7100/api/v1/eth/wallet/{walletId}/address/new
 
     example input:
